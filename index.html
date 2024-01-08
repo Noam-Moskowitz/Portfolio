@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary primaryBGC ">
+        <div class="container-fluid p-0">
+            <button class="navbar-toggler my-navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link my-nav-link ps-5" href="#home">Home</a>
+                    <a class="nav-link my-nav-link ps-5" href="#about">About</a>
+                    <a class="nav-link my-nav-link ps-5" href="#gallery">Gallery</a>
+                    <a class="nav-link my-nav-link ps-5" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0">
+        <div id="home" class="hero">
+            <h1 class="opening-headline">I am <span class="heading-highlight">Noam Moskowitz</span></h1>
+            <p class="opening-text">I'm studying <span class="text-highlight">Full Stack Development</span></p>
+            <a class="btn myBtn" href="#about">Click to find out more</a>
+        </div>
+        <div id="about" class="about">
+            <div class="about-content d-flex">
+                <div class="text">
+                    <p class="about-para ">
+                        My name is Noam Moskowitz.
+                    </p>
+                    <p class="about-para ">
+                        Before my first birthday,<br> I relocated from Brooklyn,
+                        New York,<br>
+                        to Beit
+                        Shemesh,
+                        and
+                        this city has been my home ever
+                        since.
+                    </p>
+                    <p class="about-para ">
+                        Now, at 23 years old, I'm married,<br> working in the financial
+                        industry,<br>
+                        and
+                        studying
+                        Full Stack Development at HackerU.
+                    </p>
+                    <div class="button-container pt-3">
+                        <a class="btn myBtn" href="./Downloads/N. Moskowitz Resume 2.pdf"
+                            download="Noam Moskowitz Resume.pdf" target="_blank" rel="noopener noreferrer">Download
+                            CV</a>
+                        <a class="btn myBtn fw-bold" target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/Noam-Moskowitz">GitHub</a>
+                    </div>
+                </div>
+                <div class="image"><img class="about-img" src="./images/noam-image-small.jpg" alt=""></div>
+            </div>
+        </div>
+        <div id="gallery" class="gallery">
+            <div class="gallery-content">
+                <nav class="align-items-center">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link my-nav-tab active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">HTML CSS</button>
+                        <button class="nav-link my-nav-tab" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Javascript</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="tab-content">
+                            <div class="card-container">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectOneImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #1</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectTwoImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectThreeImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #3</h5>
+                                        <p class="card-text text-center">A bonus project made for a friends buisness.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectFourImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #4</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectFiveImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #5</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectSixImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #6</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectSevenImage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #7</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectEightPage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #8</h5>
+                                        <p class="card-text text-center">A recreation based off of the project skits.
+                                        </p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/ProjectNinePage.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #9</h5>
+                                        <p class="card-text text-center">My Bootsrap bonus project.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="tab-content">
+                            <div class="card-container">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Project #2</h5>
+                                        <p class="card-text text-center">Some quick example text to build on the card
+                                            title
+                                            and make up
+                                            the bulk of the card's
+                                            content.</p>
+                                        <div class="card-button d-flex justify-content-center">
+                                            <a href="#" class="btn myBtn ">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="contact" class="contact d-flex align-items-center justify-content-center">
+            <div class="contact-content">
+                <div class="section d-flex flex-column align-items-center justify-content-around">
+                    <div class="icon-container d-flex justify-content-end pe-4">
+                        <a href="tel:0546107337" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/phone-svgrepo-com.svg" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="icon-container d-flex justify-content-end pe-4">
+                        <a href="https://wa.me/972546107337" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/whatsapp-svgrepo-com.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-container d-flex justify-content-end pe-4">
+                        <a href="mailto:noammz101@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/email-1-svgrepo-com.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="section p-3">
+                    <div class="form-content">
+                        <h2 class=" fw-bold p-3">Leave A Message!</h2>
+                        <form class="form-container">
+                            <div class="form-floating mb-3">
+                                <input required type="text" class="form-control" id="floatingPassword"
+                                    placeholder="First Name + Last Name">
+                                <label for="floatingPassword">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="tel" class="form-control" id="floatingInput" placeholder="">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+
+                                <textarea required type="text" class="form-control my-textarea" id="floatingInput"
+                                    placeholder=""></textarea>
+                                <label for="floatingInput">Message</label>
+                            </div>
+                            <input class="btn myBtn" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+                <div class="section d-flex flex-column align-items-center justify-content-around">
+                    <div class="icon-container d-flex justify-content-start ps-4">
+                        <a href="https://www.facebook.com/noam.moskowitz.5?mibextid=LQQJ4d" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/facebook-svgrepo-com.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-container d-flex ps-4">
+                        <a href="https://www.linkedin.com/in/noam-moskowitz-812a09257" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/linkedin-svgrepo-com.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-container d-flex justify-content-start ps-4">
+                        <a href="https://github.com/Noam-Moskowitz" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><img class="icon-img" src="./images/github-142-svgrepo-com.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
