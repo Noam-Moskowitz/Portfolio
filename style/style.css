@@ -261,6 +261,7 @@ body {
 .footer {
     width: 100vw;
     background-color: var(--primaryColor1);
+    padding: 50px;
 }
 
 .footer-title {
@@ -393,6 +394,7 @@ body {
 
     .footer {
         flex-direction: column-reverse;
+        padding: 10px;
     }
 
     .footer-links,
