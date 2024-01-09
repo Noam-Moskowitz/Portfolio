@@ -290,6 +290,7 @@ body {
 
 .footer-table {
     width: 50vw;
+    align-items: center;
 }
 
 .col-container {
@@ -401,6 +402,11 @@ body {
     .footer-table {
         width: 90vw;
         padding: 20px;
+        align-items: start;
+    }
+
+    .dn {
+        display: none;
     }
 }
 
