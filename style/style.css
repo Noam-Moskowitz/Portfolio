@@ -44,12 +44,12 @@ body {
 }
 
 .my-nav-link {
-    color: var(--primaryColor2);
+    color: var(--primaryColor3);
     font-size: 1.2rem;
 }
 
 .my-nav-link:hover {
-    color: var(--primaryColor3);
+    color: var(--primaryColor2);
 }
 
 .my-nav-link:focus {
@@ -258,6 +258,48 @@ body {
     height: 100px !important;
 }
 
+.footer {
+    width: 100vw;
+    background-color: var(--primaryColor1);
+}
+
+.footer-title {
+    color: var(--primaryColor3);
+}
+
+.footer-links {
+    width: 50vw;
+}
+
+.my-list-group-item {
+    background-color: var(--primaryColor1);
+    color: var(--primaryColor3);
+    font-size: .8rem;
+    border-bottom: none;
+}
+
+.fLink {
+    color: var(--primaryColor2);
+    padding-bottom: 3px;
+}
+
+.fLink:hover {
+    color: var(--primaryColor3);
+}
+
+.footer-table {
+    width: 50vw;
+}
+
+.col-container {
+    padding: 15px;
+}
+
+.tHead {
+    color: var(--primaryColor3);
+}
+
+
 @media(max-width:1160px) {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
@@ -347,6 +389,16 @@ body {
 
     .about-img {
         width: 200px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer-links,
+    .footer-table {
+        width: 90vw;
+        padding: 20px;
     }
 }
 
