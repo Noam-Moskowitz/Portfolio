@@ -181,6 +181,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .card-container {
@@ -222,12 +223,12 @@ body {
     justify-content: center;
     width: 60px;
     background-color: var(--primaryColor2);
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 .icon-img:Hover {
-    width: 112%;
+    padding: 4px;
 }
 
 .icon-img {
@@ -299,6 +300,48 @@ body {
 
 .tHead {
     color: var(--primaryColor3);
+}
+
+/* projectPage CSS */
+.my-container {
+    height: 100vh;
+    background-color: var(--primaryColor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    /* width: 900px; */
+    height: 400px;
+    background-color: var(--primaryColor3);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-img {
+    height: 100%;
+}
+
+.content-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.content-para {
+    width: 80%;
+}
+
+#previewImage {
+    height: 100%;
+    border-radius: 0 10px 10px 0;
 }
 
 

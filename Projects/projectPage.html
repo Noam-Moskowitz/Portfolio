@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary primaryBGC ">
+        <div class="container-fluid p-0">
+            <button class="navbar-toggler my-navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link my-nav-link ps-5" href="#home">Home</a>
+                    <a class="nav-link my-nav-link ps-5" href="#about">About</a>
+                    <a class="nav-link my-nav-link ps-5" href="#gallery">Gallery</a>
+                    <a class="nav-link my-nav-link ps-5" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid my-container">
+        <div class="content">
+            <div class="content-img">
+                <img id="previewImage" src="" alt="">
+            </div>
+            <div class="content-text p-4">
+                <h1 class="fw-bold pb-3" id="content-heading"></h1>
+                <div id="paragraph" class="content-para">
+                </div>
+                <div class="button-container pt-4">
+                    <a id="view" class="btn myBtn" href="">View Project</a>
+                    <a id="download" class="btn myBtn" href="" download>Download Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../scripts/main.js"></script>
+</body>
+
+</html>
