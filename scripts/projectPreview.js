@@ -8,6 +8,27 @@ function displayPreview(obj) {
     document.getElementById(`view`).href = ``
 
 }
-export {
-    displayPreview
-};
+
+function getURLMessage() {
+  const urlParams = new URLSearchParams(window.location.search);
+
+  if (urlParams.has('title')) {
+    // Fix typo: 'tile' should be 'title'
+    const projectTitle = urlParams.get('title');
+    return projectTitle; // Return the extracted value
+  } else {
+    return null;
+  }
+}
+
+// Call the function and store the result in a variable
+const titleFromURL = getURLMessage();
+
+async function  getJsonObj(objName) {
+    const response = fetch(`../JSON files/projectObj.json`)
+    if (response.ok) {
+        let responseJson= (await response).json 
+    }
+}
+
+let json=getJsonObj()
