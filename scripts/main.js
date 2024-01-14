@@ -62,7 +62,7 @@ function displayPreview(obj) {
 }
 
 async function  getData() {
-    const response = await fetch(`../JSON files/projectObj.json`)
+    const response = await fetch(`https://noam-moskowitz.github.io/Portfolio/JSON%20files/projectObj.json`)
     if ( response.ok) {
         const responseText =await response.json();
         return responseText
