@@ -31,7 +31,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid p-0">
+    <div id="portfolio-container" class="container-fluid p-0">
         <div id="home" class="hero">
             <h1 class="opening-headline">I am <span class="heading-highlight">Noam Moskowitz</span></h1>
             <p class="opening-text">I'm studying <span class="text-highlight">Full Stack Development</span></p>
@@ -94,8 +94,8 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank" title="htmlP1"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button title="htmlP1" class="btn myBtn btnEvent">View
+                                                Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -106,8 +106,7 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button class="btn myBtn btnEvent">View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -118,8 +117,7 @@
                                         <p class="card-text text-center">A bonus Project made for a friends buisness.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button class="btn myBtn btnEvent">View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -130,8 +128,8 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                class="btn myBtn btnEvent">View Project</a>
                                         </div>
                                     </div>
                                 </div>
@@ -142,8 +140,7 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button class="btn myBtn btnEvent">View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -154,8 +151,8 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                class="btn myBtn btnEvent">View Project</a>
                                         </div>
                                     </div>
                                 </div>
@@ -166,8 +163,8 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                class="btn myBtn btnEvent">View Project</a>
                                         </div>
                                     </div>
                                 </div>
@@ -178,8 +175,7 @@
                                         <p class="card-text text-center">A recreation based off of the Project skits.
                                         </p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button class="btn myBtn btnEvent">View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +185,7 @@
                                         <h5 class="card-title text-center">Project #9</h5>
                                         <p class="card-text text-center">My Bootsrap bonus Project.</p>
                                         <div class="card-button d-flex justify-content-center">
-                                            <a href="./Projects/projectPage.html" target="_blank"
-                                                rel="noopener noreferrer" class="btn myBtn btnEvent">View Project</a>
+                                            <button class="btn myBtn btnEvent">View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -451,6 +446,22 @@
             </div>
         </footer>
     </div>
+    </div>
+    <div id="projectPreview" class="container-fluid p-4 my-container">
+        <div class="content">
+            <div class="content-img">
+                <img id="previewImage" src="" alt="">
+            </div>
+            <div class="content-text p-4">
+                <h1 class="fw-bold pb-3" id="content-heading"></h1>
+                <div id="paragraph" class="content-para">
+                </div>
+                <div class="button-container pt-4">
+                    <a id="view" class="btn myBtn" href="">View Project</a>
+                    <a id="download" class="btn myBtn" href="" download>Download Project</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./scripts/main.js"></script>

@@ -301,12 +301,16 @@ body {
 .tHead {
     color: var(--primaryColor3);
 }
+#projectPreview{
+    display: none;
 
+}
 /* projectPage CSS */
 .my-container {
     height: 100vh;
     background-color: var(--primaryColor2);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
