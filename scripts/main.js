@@ -12,6 +12,32 @@ const project =await getData();
 switch(event.target.title){
 case `htmlP1`:
 displayPreview(project.htmlP1)
+break;
+case `htmlP2`:
+displayPreview(project.htmlP2)
+break;
+case `htmlP3`:
+displayPreview(project.htmlP3)
+break;
+case `htmlP4`:
+displayPreview(project.htmlP4)
+break;
+case `htmlP5`:
+displayPreview(project.htmlP5)
+break;
+case `htmlP6`:
+displayPreview(project.htmlP6)
+break;
+case `htmlP7`:
+displayPreview(project.htmlP7)
+break;
+case `htmlP8`:
+displayPreview(project.htmlP8)
+break;
+case `htmlP9`:
+displayPreview(project.htmlP9)
+break;
+
 
 
 }
@@ -31,7 +57,7 @@ function displayPreview(obj) {
     document.getElementById(`content-heading`).textContent = obj.title;
     document.getElementById(`paragraph`).textContent = obj.paragraph;
     document.getElementById(`download`).href = `../Downloads/zips/${obj.downloadLink}`
-    document.getElementById(`view`).href = ``
+    document.getElementById(`view`).href = obj.viewLink;
 
 }
 
