@@ -53,7 +53,7 @@ projectPreview.style.display=`none`;
 })
 
 function displayPreview(obj) {
-    document.getElementById(`previewImage`).src = `../images/${obj.image}`
+    document.getElementById(`previewImage`).src = `https://noam-moskowitz.github.io/Portfolio/images/${obj.image}`
     document.getElementById(`content-heading`).textContent = obj.title;
     document.getElementById(`paragraph`).textContent = obj.paragraph;
     document.getElementById(`download`).href = `../Downloads/zips/${obj.downloadLink}`
