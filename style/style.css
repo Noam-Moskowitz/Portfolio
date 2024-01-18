@@ -45,12 +45,12 @@ body {
 }
 
 .my-nav-link {
-    color: var(--primaryColor3);
+    color: var(--primaryColor5);
     font-size: 1.2rem;
 }
 
 .my-nav-link:hover {
-    color: var(--primaryColor3);
+    color: var(--primaryColor4);
 }
 
 .my-nav-link:focus {
@@ -58,7 +58,7 @@ body {
 }
 
 .primaryBGC {
-    background-color: var(--primaryColor4) !important;
+    background-color: var(--primaryColor3) !important;
 }
 
 .hero {
@@ -164,14 +164,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primaryColor4);
+    background-color: var(--primaryColor3);
 }
 
 .gallery-content {
     width: 85vw;
     height: 95vh;
     border-radius: 10px;
-    background-color: var(--primaryColor3);
+    background-color: var(--primaryColor4);
     overflow-y: scroll;
     scrollbar-width: thin;
 }
@@ -179,17 +179,17 @@ body {
 
 
 .my-nav-tab {
-    color: var(--primaryColor1);
+    color: var(--primaryColor3);
     font-size: 1.2rem;
 }
 
 .my-nav-tab:Hover {
-    color: var(--primaryColor2);
+    color: var(--primaryColor5);
 }
 
 .active {
-    background-color: var(--primaryColor3) !important;
-    color: var(--primaryColor2) !important;
+    background-color: var(--primaryColor4) !important;
+    color: var(--primaryColor3) !important;
 }
 
 .tab-content {
@@ -278,12 +278,12 @@ body {
 
 .footer {
     width: 100vw;
-    background-color: var(--primaryColor1);
+    background-color: var(--primaryColor3);
     padding: 50px;
 }
 
 .footer-title {
-    color: var(--primaryColor3);
+    color: var(--primaryColor2);
 }
 
 .footer-links {
@@ -291,20 +291,19 @@ body {
 }
 
 .my-list-group-item {
-    background-color: var(--primaryColor1);
-    color: var(--primaryColor3);
+    background-color: var(--primaryColor3);
+    color: var(--primaryColor2);
     font-size: .8rem;
     border-bottom: none;
 }
 
 .fLink {
-    color: var(--primaryColor3);
+    color: var(--primaryColor4);
     padding-bottom: 3px;
 }
 
 .fLink:hover {
-    color: var(--primaryColor3);
-    background-color: var(--primaryColor4);
+    color: var(--primaryColor5);
 }
 
 .footer-table {
@@ -438,6 +437,7 @@ body {
     .hero {
         padding: 5px;
         height: 70vh;
+        background-position-x: left;
     }
 
     .opening-headline {
