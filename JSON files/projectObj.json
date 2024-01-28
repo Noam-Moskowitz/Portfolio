@@ -65,8 +65,15 @@
     "clockApp": {
         "title": "Clock App",
         "paragraph": "This is a JavaScript-based clock application featuring three functionalities: World Clock, Timer, and Stopwatch.",
-        "image": "ProjectNineImage.png",
+        "image": "clockImage.png",
         "downloadLink": "clock.zip",
         "viewLink": "https://noam-moskowitz.github.io/Clock-App---JS/"
+    },
+    "simon": {
+        "title": "Simon",
+        "paragraph": "This JavaScript version breathes life into the classic Simon game, conjuring a nostalgic ambiance with its genuine game sounds while displaying your high score to inspire you to strive for improvement.",
+        "image": "simonImage.png",
+        "downloadLink": "Simon-JS.zip",
+        "viewLink": "https://noam-moskowitz.github.io/Simon-JS/"
     }
 }
