@@ -43,6 +43,15 @@ projectLinks.forEach((link) => {
             case `simon`:
                 displayPreview(project.simon)
                 break;
+            case `hangman`:
+                displayPreview(project.hangman)
+                break;
+            case `userManager`:
+                displayPreview(project.userManager)
+                break;
+            case `screenBuilder`:
+                displayPreview(project.screenBuilder)
+                break;
 
         }
     });

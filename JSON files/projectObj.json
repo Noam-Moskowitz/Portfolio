@@ -75,5 +75,26 @@
         "image": "simonImage.png",
         "downloadLink": "Simon-JS.zip",
         "viewLink": "https://noam-moskowitz.github.io/Simon-JS/"
+    },
+    "hangman": {
+        "title": "Hangman",
+        "paragraph": "A hangman project implemented in JavaScript, providing an interactive gaming experience where players guess letters to unveil a hidden word, showcasing both coding proficiency and user engagement.",
+        "image": "simonImage.png",
+        "downloadLink": "Simon-JS.zip",
+        "viewLink": "https://noam-moskowitz.github.io/Hangman---JS/homePage.html"
+    },
+    "userManager": {
+        "title": "User Manager",
+        "paragraph": "Built entirely in JavaScript, the user management platform enables users to register, delete, and edit profiles, alongside secure login and logout functionality based on correct credentials.",
+        "image": "simonImage.png",
+        "downloadLink": "Simon-JS.zip",
+        "viewLink": "https://noam-moskowitz.github.io/User-Manager-JS/"
+    },
+    "screenBuilder": {
+        "title": "Screen Builder",
+        "paragraph": "This platform, built entirely with JavaScript, provides a user-friendly interface for creating complete HTML pages effortlessly, offering intuitive features to add content and style elements without requiring coding expertise. Additionally, users can save their creations and load existing files seamlessly, streamlining the webpage development process for both beginners and experienced users alike.",
+        "image": "simonImage.png",
+        "downloadLink": "Simon-JS.zip",
+        "viewLink": "https://noam-moskowitz.github.io/Screen-Builder----JS/"
     }
 }
