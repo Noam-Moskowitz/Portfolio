@@ -52,6 +52,9 @@ projectLinks.forEach((link) => {
             case `screenBuilder`:
                 displayPreview(project.screenBuilder)
                 break;
+            case `conversionCalculator`:
+                displayPreview(project.conversionCalculator)
+                break;
         }
         document.location = `#projectPreview`;
     });

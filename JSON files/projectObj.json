@@ -110,5 +110,13 @@
         "downloadLink": "Simon-JS.zip",
         "viewLink": "https://noam-moskowitz.github.io/Screen-Builder----JS/",
         "githubLink": "https://github.com/Noam-Moskowitz/Screen-Builder----JS"
+    },
+    "conversionCalculator": {
+        "title": "Conversion Calculator",
+        "paragraph": "This calculator is designed for a forex company to help customers understand their final outcome after factoring in the company's fees and the exchange rate. It enables users to quickly determine the net amount they will receive or pay for currency transactions. By inputting the exchange amount and relevant fees, clients can make informed decisions about their conversions.",
+        "image": "simonImage.png",
+        "downloadLink": "Simon-JS.zip",
+        "viewLink": "https://noam-moskowitz.github.io/Conversion-Calculator--JS/",
+        "githubLink": "https://github.com/Noam-Moskowitz/Conversion-Calculator--JS"
     }
 }
