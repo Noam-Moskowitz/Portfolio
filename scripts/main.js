@@ -52,8 +52,8 @@ projectLinks.forEach((link) => {
             case `screenBuilder`:
                 displayPreview(project.screenBuilder)
                 break;
-
         }
+        document.location = `#projectPreview`;
     });
 });
 
@@ -72,7 +72,7 @@ function displayPreview(obj) {
     document.getElementById(`paragraph`).textContent = obj.paragraph;
     document.getElementById(`download`).href = `./Downloads/zips/${obj.downloadLink}`
     document.getElementById(`view`).href = obj.viewLink;
-
+    document.getElementById(`github`).href = obj.githubLink;
 }
 
 async function getData() {

@@ -4,97 +4,111 @@
         "paragraph": "The following is a recreation of one of the pages from the project bank. This project was made using only HTML and CSS.",
         "image": "ProjectOneImage.png",
         "downloadLink": "Project 1.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%201/ProjectOne.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%201/ProjectOne.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%201"
     },
     "htmlP2": {
         "title": "Project #2",
         "paragraph": "A recreation of a landing page from the project bank. This page was built using only CSS and HTML.",
         "image": "ProjectTwoImage.png",
         "downloadLink": "Project 2.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%202/ProjectTwo.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%202/ProjectTwo.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%202"
     },
     "htmlP3": {
         "title": "Project #3",
         "paragraph": "The following is a landing page I made for a friend's business. LightStudios focuses on creating content for businesses resulting in more leads via Social Media. This project was made using only HTML and CSS.",
         "image": "ProjectThreeImage.png",
         "downloadLink": "Project 3.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%203/ProjectThree.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%203/ProjectThree.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%203"
     },
     "htmlP4": {
         "title": "Project #4",
         "paragraph": "The following is a recreation of one of the pages from the project bank. This project was made using HTML, CSS, and SASS.",
         "image": "ProjectFourImage.png",
         "downloadLink": "Project 4.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%204/ProjectFour.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%204/ProjectFour.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%204"
     },
     "htmlP5": {
         "title": "Project #5",
         "paragraph": "The following is a recreation of one of the pages from the project bank. This project was made using HTML, CSS, and SASS.",
         "image": "ProjectFiveImage.png",
         "downloadLink": "Project 5.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%205/ProjectFive.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%205/ProjectFive.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%205"
     },
     "htmlP6": {
         "title": "Project #6",
         "paragraph": "The following is a bonus recreation of one of the pages from the project bank. This project was made using HTML, CSS, and SASS.",
         "image": "ProjectSixImage.png",
         "downloadLink": "Project 6.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%206/ProjectSix.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%206/ProjectSix.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%206"
     },
     "htmlP7": {
         "title": "Project #7",
         "paragraph": "The following is a recreation of one of the pages from the project bank. This project was made using HTML, CSS, and Bootstrap.",
         "image": "ProjectSevenImage.png",
         "downloadLink": "Project 7.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%207/ProjectSeven.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%207/ProjectSeven.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%207"
     },
     "htmlP8": {
         "title": "Project #8",
         "paragraph": "The following is a recreation of one of the pages from the project bank. This project was made using HTML, CSS, and Bootstrap.",
         "image": "ProjectEightImage.png",
         "downloadLink": "Project 8.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%208/ProjectEight.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%208/ProjectEight.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%208"
     },
     "htmlP9": {
         "title": "Project #9",
         "paragraph": "The following is a bonus project. This project was made using HTML, CSS, and Bootstrap.",
         "image": "ProjectNineImage.png",
         "downloadLink": "Project 9.zip",
-        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%209/ProjectNine.html"
+        "viewLink": "https://noam-moskowitz.github.io/HTML-CSS-Project/Projects/Project%209/ProjectNine.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/HTML-CSS-Project/tree/master/Projects/Project%209"
     },
     "clockApp": {
         "title": "Clock App",
         "paragraph": "This is a JavaScript-based clock application featuring three functionalities: World Clock, Timer, and Stopwatch.",
         "image": "clockImage.png",
         "downloadLink": "clock.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Clock-App---JS/"
+        "viewLink": "https://noam-moskowitz.github.io/Clock-App---JS/",
+        "githubLink": "https://github.com/Noam-Moskowitz/Clock-App---JS"
     },
     "simon": {
         "title": "Simon",
         "paragraph": "This JavaScript version breathes life into the classic Simon game, conjuring a nostalgic ambiance with its genuine game sounds while displaying your high score to inspire you to strive for improvement.",
         "image": "simonImage.png",
         "downloadLink": "Simon-JS.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Simon-JS/"
+        "viewLink": "https://noam-moskowitz.github.io/Simon-JS/",
+        "githubLink": "https://github.com/Noam-Moskowitz/Simon-JS"
     },
     "hangman": {
         "title": "Hangman",
         "paragraph": "A hangman project implemented in JavaScript, providing an interactive gaming experience where players guess letters to unveil a hidden word, showcasing both coding proficiency and user engagement.",
         "image": "simonImage.png",
         "downloadLink": "Simon-JS.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Hangman---JS/homePage.html"
+        "viewLink": "https://noam-moskowitz.github.io/Hangman---JS/homePage.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Hangman---JS"
     },
     "userManager": {
         "title": "User Manager",
         "paragraph": "Built entirely in JavaScript, the user management platform enables users to register, delete, and edit profiles, alongside secure login and logout functionality based on correct credentials.",
         "image": "simonImage.png",
         "downloadLink": "Simon-JS.zip",
-        "viewLink": "https://noam-moskowitz.github.io/User-Manager-JS/"
+        "viewLink": "https://noam-moskowitz.github.io/User-Manager-JS/",
+        "githubLink": "https://github.com/Noam-Moskowitz/User-Manager-JS"
     },
     "screenBuilder": {
         "title": "Screen Builder",
         "paragraph": "This platform, built entirely with JavaScript, provides a user-friendly interface for creating complete HTML pages effortlessly, offering intuitive features to add content and style elements without requiring coding expertise. Additionally, users can save their creations and load existing files seamlessly, streamlining the webpage development process for both beginners and experienced users alike.",
         "image": "simonImage.png",
         "downloadLink": "Simon-JS.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Screen-Builder----JS/"
+        "viewLink": "https://noam-moskowitz.github.io/Screen-Builder----JS/",
+        "githubLink": "https://github.com/Noam-Moskowitz/Screen-Builder----JS"
     }
 }
