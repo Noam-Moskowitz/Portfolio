@@ -76,47 +76,47 @@
         "paragraph": "This is a JavaScript-based clock application featuring three functionalities: World Clock, Timer, and Stopwatch.",
         "image": "clockImage.png",
         "downloadLink": "clock.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Clock-App---JS/",
-        "githubLink": "https://github.com/Noam-Moskowitz/Clock-App---JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/Clock/index.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/Clock"
     },
     "simon": {
         "title": "Simon",
         "paragraph": "This JavaScript version breathes life into the classic Simon game, conjuring a nostalgic ambiance with its genuine game sounds while displaying your high score to inspire you to strive for improvement.",
         "image": "simonImage.png",
         "downloadLink": "simon project.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Simon-JS/",
-        "githubLink": "https://github.com/Noam-Moskowitz/Simon-JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/Simon/index.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/Simon"
     },
     "hangman": {
         "title": "Hangman",
         "paragraph": "A hangman project implemented in JavaScript, providing an interactive gaming experience where players guess letters to unveil a hidden word, showcasing both coding proficiency and user engagement.",
         "image": "hangman Preview .jpeg",
         "downloadLink": "Hangman - JS.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Hangman---JS/homePage.html",
-        "githubLink": "https://github.com/Noam-Moskowitz/Hangman---JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/Hangman/homePage.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/Hangman"
     },
     "userManager": {
         "title": "User Manager",
         "paragraph": "Built entirely in JavaScript, the user management platform enables users to register, delete, and edit profiles, alongside secure login and logout functionality based on correct credentials.",
         "image": "user manager  preview.jpeg",
         "downloadLink": "User Managment.zip",
-        "viewLink": "https://noam-moskowitz.github.io/User-Manager-JS/",
-        "githubLink": "https://github.com/Noam-Moskowitz/User-Manager-JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/User%20Management/index.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/User%20Management"
     },
     "screenBuilder": {
         "title": "Screen Builder",
         "paragraph": "This platform, built entirely with JavaScript, provides a user-friendly interface for creating complete HTML pages effortlessly, offering intuitive features to add content and style elements without requiring coding expertise. Additionally, users can save their creations and load existing files seamlessly, streamlining the webpage development process for both beginners and experienced users alike.",
         "image": "screen builder preview.jpeg",
         "downloadLink": "Screen Builder.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Screen-Builder----JS/",
-        "githubLink": "https://github.com/Noam-Moskowitz/Screen-Builder----JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/Screen%20Builder/index.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/Screen%20Builder"
     },
     "conversionCalculator": {
         "title": "Conversion Calculator",
         "paragraph": "This calculator is designed for a forex company to help customers understand their final outcome after factoring in the company's fees and the exchange rate. It enables users to quickly determine the net amount they will receive or pay for currency transactions. By inputting the exchange amount and relevant fees, clients can make informed decisions about their conversions.",
         "image": "conversion calculator preview.jpeg",
         "downloadLink": "conversion calculator.zip",
-        "viewLink": "https://noam-moskowitz.github.io/Conversion-Calculator--JS/",
-        "githubLink": "https://github.com/Noam-Moskowitz/Conversion-Calculator--JS"
+        "viewLink": "https://noam-moskowitz.github.io/Javascript-Projects/Conversion%20Calculator/index.html",
+        "githubLink": "https://github.com/Noam-Moskowitz/Javascript-Projects/tree/main/Conversion%20Calculator"
     }
 }
